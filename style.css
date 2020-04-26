@@ -1,0 +1,84 @@
+h1 {
+  text-align: center;
+  color: white;
+  background-color: #9400D3;
+}
+
+/* header  */
+.header {
+  color: black;
+  max-width: 98%;
+  text-align: center;
+  
+}
+
+/* 1st row in  header */
+.input-text-block {
+  margin: auto;
+  max-width: 50%;
+  padding: 0.7em;
+  padding-right: 1.5em;
+}
+
+.input-text {
+  padding: 0.5em;
+  border-radius: 0.6em;
+}
+
+#error {
+  color: rgb(126, 2, 2);
+}
+
+.algo-button-section {
+  width: 50%;
+  margin: auto;
+  padding: 1em;
+}
+.button {
+  padding: 0.5em;
+  color: white;
+  margin-right: 3.5%;
+  background-color: #00BFFF;
+  border-radius: 0.2em;
+}
+.reset-button{
+  padding: 0.5em;
+ /*border: 1px solid grey;*/
+width: 50%;
+  color: white;
+  margin-right: 3.5%;
+  background-color: #3CB371;
+  border-radius: 0.2em;
+}
+
+.algo-animation-container1 {
+  width: 800px;
+  height: 284px;
+  position: relative;
+  margin: 0 auto;
+}
+
+.block {
+  width: 28px;
+  position: absolute;
+  left: 30%;
+  bottom: 0;
+  background-color: #58b7ff;
+  transition: 0.2s all ease;
+}
+
+.block_id {
+  position: absolute;
+  top: -24px;
+  width: 100%;
+  text-align: center;
+}
+/* for linear search */
+
+.searchBox {
+  width: 25%;
+  height: 15%;
+  text-align: center; 
+  background-color: #E6E6FA;
+  margin: auto;
+}

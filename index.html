@@ -1,0 +1,50 @@
+<html>
+  <head>
+    <title>
+      Algorithm visualization
+    </title>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="style.css" rel="stylesheet" />
+    <h1>Algorithm Visualizer</h1>
+  </head>
+  <body>
+    <section class="header">
+	
+      <div class="input-text-block">
+	  
+        <label>DataSet Size (Max 15)</label>
+        <input type="number" placeholder="Enter Size" class="input-text" id="input-size"  onchange="generateBlocks()" /></br></br>
+
+        <label>Search value</label>
+        <input type="text" placeholder="Search value" class="input-text" id="input-search-value" /></br></br>
+		
+        <input type="button" value="reset" class="reset-button" onclick="reset()" />
+      </div>
+
+      <div class="algo-button-section">
+        <input type="button" value="Bubble Sort"  class="button" onclick="bubbleSort()" />
+        <input type="button"  value="Insertion Sort"  class="button" onclick="insertionSort()" />
+		<input type="button" value="Selection Sort" class="button" onclick="selectionSort()"  />
+        <input type="button"  value="Linear Search"  class="button" onclick="linearSearch()" />
+        <input type="button" value="Binary Search" class="button" id="binary-search" onclick="binarySearch()"  />
+      </div>
+    </section>
+
+    <section class="algo-animation-container1">
+      <label id="display-values" class="display-values"></label><br /><br />
+      <label id="display-sorting-status" class="display-values"></label>
+
+      <section class="algo-animation-container"></section>
+    </section>
+    <section id="footer"></section>
+  </body>
+  <script src="./js/index.js"></script>
+  <script src="./js/BubbleSort.js"></script>
+  <script src="./js/linearSearch.js"></script>
+  <script src="./js/search.js"></script>
+  <script src="./js/binarySearch.js"></script>
+  <script src="./js/selectionSort.js"></script>
+  <script src="./js/insertionSort.js"></script>
+  </html>
